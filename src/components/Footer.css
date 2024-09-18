@@ -10,3 +10,8 @@
     bottom: 0;
     margin-top: 20px; /* Espaço acima do rodapé para evitar sobreposição */
 }
+
+.Footer-signature {
+    font-style: italic; /* Define o texto como itálico */
+    font-size: 14px; /* Ajusta o tamanho da fonte, se necessário */
+}

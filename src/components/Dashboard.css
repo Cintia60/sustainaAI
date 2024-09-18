@@ -1,0 +1,39 @@
+.Dashboard {
+    background-color: #f4f4f4; /* Cor de fundo do painel */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaço acima do painel */
+  }
+  
+  .Dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Cor do título */
+  }
+  
+  .Dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os cartões */
+  }
+  
+  .Dashboard-item {
+    background-color: #fff; /* Cor de fundo dos cartões */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; /* Altura dos cartões para garantir o formato quadrado */
+  }
+  
+  @media (min-width: 768px) {
+    .Dashboard-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  

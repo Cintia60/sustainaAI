@@ -1,14 +1,19 @@
+// src/App.jsx
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FeatureSection from './components/FeatureSection';
 import AboutSection from './components/AboutSection';
-import AboutMeSection from './components/AboutMeSection'; // Importar o novo componente
-import ContactSection from './components/ContactSection'; // Importar o novo componente
+import AboutMeSection from './components/AboutMeSection';
+import ContactSection from './components/ContactSection';
+import AIIntegration from './components/AIIntegration'; // Importar novo componente
+import FAQ from './components/FAQ'; // Importar novo componente
+import Dashboard from './components/Dashboard'; // Importar o Dashboard
+//import WeatherInfo from './components/WeatherInfo'; // Importar WeatherInfo
+import ReportGenerator from './components/ReportGenerator'; // Importar ReportGenerator
 import './App.css';
 import logo from './logo.svg';
 
-// Componente de introdução
 const Introduction = () => (
   <div className="intro-container">
     <h1>Bem-vindo ao SustainaAI</h1>
@@ -19,7 +24,6 @@ const Introduction = () => (
 );
 
 function App() {
-  // Estado para a mensagem do botão
   const [message, setMessage] = useState('');
 
   const handleClick = () => {
@@ -39,9 +43,14 @@ function App() {
           {message && <p className="App-message">{message}</p>}
         </header>
         <FeatureSection />
+        <AIIntegration />
+        <Dashboard />
+        <ReportGenerator />
         <AboutSection />
-        <AboutMeSection /> {/* Adicionar a nova seção sobre mim */}
-        <ContactSection /> {/* Adicionar a nova seção de contato */}
+        <AboutMeSection />
+        <FAQ />
+        <ContactSection />
+        {/* Adicionando novos componentes */}
       </main>
       <Footer />
     </div>

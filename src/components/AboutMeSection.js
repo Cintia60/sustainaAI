@@ -1,12 +1,15 @@
 // src/components/AboutMeSection.js
-
 import React from 'react';
 import './AboutMeSection.css'; // Importar o arquivo CSS para estilização
 
 const AboutMeSection = () => (
   <section className="AboutMeSection">
     <div className="AboutMeSection-content">
-      <img src="/images/dalila.jpg"  className="AboutMeSection-photo" />
+      <img 
+        src="/images/dalila.jpg"  
+        className="AboutMeSection-photo" 
+        alt="Cíntia Dalila Luís Cumbane" // Descrição da imagem
+      />
       <div className="AboutMeSection-text">
         <h2>Cíntia Dalila Luís Cumbane</h2>
         <p>

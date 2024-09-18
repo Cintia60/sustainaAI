@@ -11,16 +11,16 @@ const ContactSection = () => {
         <div className="ContactCard">
           <h3>Entre em Contato</h3>
           <div className="ContactCard-info">
-            <i className="ContactCard-icon">🏠</i>
-            <p>Endereço: Rua Exemplo, Cidade, País</p>
+            <span className="ContactCard-icon" role="img" aria-label="Casa">🏠</span>
+            <p>Endereço: Rua Miguel Bombarda n1, Coimbra, Portugal</p>
           </div>
           <div className="ContactCard-info">
-            <i className="ContactCard-icon">✉️</i>
-            <p>Email: exemplo@dominio.com</p>
+            <span className="ContactCard-icon" role="img" aria-label="Envelope">✉️</span>
+            <p>Email: cynthiadalila69@gmail.com</p>
           </div>
           <div className="ContactCard-info">
-            <i className="ContactCard-icon">📞</i>
-            <p>Telefone: +258 84 123 4567</p>
+            <span className="ContactCard-icon" role="img" aria-label="Telefone">📞</span>
+            <p>Telefone: +351 933 992 355</p>
           </div>
         </div>
 
