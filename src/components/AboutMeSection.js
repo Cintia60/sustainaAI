@@ -6,7 +6,7 @@ const AboutMeSection = () => (
   <section className="AboutMeSection">
     <div className="AboutMeSection-content">
       <img 
-        src="/images/dalila.jpg"  
+        src="./images/dalila.jpg"  
         className="AboutMeSection-photo" 
         alt="Cíntia Dalila Luís Cumbane" // Descrição da imagem
       />
