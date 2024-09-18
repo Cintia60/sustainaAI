@@ -1,0 +1,37 @@
+.FeatureCard {
+    background: rgba(255, 255, 255, 0.9); /* Fundo com transparência */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* Três cards por linha, ajustando para responsividade */
+    box-sizing: border-box;
+    max-width: 350px; /* Largura máxima dos cards */
+    min-height: 300px; /* Altura mínima dos cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FeatureCard-image {
+    width: 100%; /* Imagem ocupa toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 150px; /* Limita a altura da imagem */
+    object-fit: cover; /* Ajusta a imagem dentro do contêiner */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.FeatureCard-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.FeatureCard-description {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}

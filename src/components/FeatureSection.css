@@ -1,0 +1,18 @@
+.FeatureSection {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.FeatureSection h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #1A4A5A; /* Cor principal */
+}
+
+.FeatureSection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os cards */
+}

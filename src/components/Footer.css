@@ -1,0 +1,12 @@
+/* src/components/Footer.css */
+
+.Footer {
+    background-color: #1A4A5A; /* Cor do fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px; /* Espaço acima do rodapé para evitar sobreposição */
+}

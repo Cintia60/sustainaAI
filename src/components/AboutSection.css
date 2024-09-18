@@ -1,0 +1,23 @@
+/* src/components/AboutSection.css */
+
+.AboutSection {
+    padding: 40px 20px;
+    text-align: center;
+    background: transparent; /* Fundo transparente */
+    color: #1A4A5A; /* Cor do texto que combina com o logotipo */
+}
+
+.AboutSection h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600; /* Negrito para destaque */
+}
+
+.AboutSection-content {
+    font-size: 16px;
+    color: #333; /* Cor do texto principal */
+    line-height: 1.5; /* Melhor legibilidade */
+    max-width: 700px; /* Largura máxima para texto */
+    margin: 0 auto; /* Centralizar o conteúdo */
+    padding: 0 10px; /* Padding interno */
+}
